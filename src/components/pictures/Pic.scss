@@ -1,0 +1,55 @@
+.pic {
+    .pic1 {
+        z-index: -1;
+
+        img {
+            position: relative;
+            height: 80%;
+            overflow: hidden;
+            border-radius: 50px;
+            left: 15%;
+            width: 38%;
+        }
+    }
+
+    .forty {
+        z-index: 1;
+
+        .percent {
+            font-size: 40px;
+        }
+
+ 
+        
+        position: absolute;
+        top: 80%;
+        left: 1%;
+
+    }
+
+    .pic2{
+        z-index: -1;
+
+        img {
+            position: absolute;
+            // height: 100%;
+            overflow: hidden;
+            border-radius: 50px;
+            left: 8%;
+            top:130%;
+        }
+    }
+
+    .pic3{
+        z-index: -1;
+
+        img {
+            position: absolute;
+            // height: 100%;
+            overflow: hidden;
+            border-radius: 50px;
+            left: 28%;
+            top: 130%;
+        }
+    }
+}

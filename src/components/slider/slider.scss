@@ -1,0 +1,84 @@
+.slider-container {
+    position: absolute;
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    top: 90%;
+    left: 45%;
+}
+
+.slides {
+    position: relative;
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+    left: 40%;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide h2, .slide p {
+    margin: 0;
+    width: 60%;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    line-height: 48px;
+    
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #888; /* Set the default color for dots */
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+
+    &:nth-child(2) {
+        background-color: #bbb; /* Set the color for the second dot */
+    }
+
+    &:nth-child(3) {
+        background-color: #ccc; /* Set the color for the third dot */
+    }
+}
+
+.dot.active {
+    background-color: #333; /* Set the active color for dots */
+}
+
+.explore-button {
+    position: relative;
+    left: 40%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 40px; /* Adjust border radius as needed */
+    padding: 30px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: #403f3f; /* Change color on hover */
+    }
+
+}

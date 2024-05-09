@@ -1,0 +1,76 @@
+.faq-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 30px;
+    background-color: #E8EEE7;
+    margin: 20px;
+    // font-family: 'Manrope', sans-serif;
+    padding: 60px;
+}
+
+.faq-content {
+    width: 50%;
+    padding: 20px;
+}
+
+.faq-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+
+    .mind{
+            font-family: "Covered By Your Grace", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            color: #9E9D9D;
+    }
+    
+    .ask{
+        font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+    }
+}
+
+.question-answer {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+
+.toggle-icon {
+    font-size: 20px;
+}
+
+.answer {
+    display: block;
+    font-size: 16px;
+    padding-top: 10px;
+    transition: height 2s ease; /* Set transition duration to 2 seconds */
+    overflow: hidden;
+    height: 0;
+    padding: 0 20px; /* Add padding to match the question's padding */
+}
+
+.open {
+    height: auto; /* Set height to auto immediately */
+    padding: 10px 20px; /* Adjust padding for open answer */
+}

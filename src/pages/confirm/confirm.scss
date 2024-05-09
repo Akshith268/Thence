@@ -1,0 +1,105 @@
+.Confirm{
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        top: 20px;
+        // position: absolute;
+        margin-top: 20px;
+
+        .name{
+            font-family: "Manrope", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 40px;     
+            }
+
+        .return{
+            font-family: "Manrope", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 20px;
+            cursor: pointer;
+            background: white;
+            border-radius: 50%;
+            border: thin solid #a9a9a9;
+            height: 60px;
+            width: 60px;
+            // padding: 8px;
+            button{
+                background: white;
+                border: none;
+                font-size: 30px;
+                font-weight: 600;
+                cursor: pointer;
+                &:hover{
+                    background: #a9a9a9;
+                    color: white;
+                    transition: 0.2s;
+                }
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        max-width: 715px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+
+        .tick{
+            text-align: center;
+            align-items: center;
+            background: #28B246;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            .ticking{
+                font-size: 40px;
+            }
+        }
+
+        .success{
+            font-family: 'Covered By Your Grace', cursive;
+            font-weight: 400;
+            color:#2DA950 ;
+            font-size: 27px;
+            text-align: center;
+        }
+
+        .congrats{
+            font-size: 40px;
+            font-weight: 600;
+            font-family: 'Manrope', sans-serif;
+
+        }
+
+        .message{
+            font-family: 'Manrope', sans-serif;
+            font-size: 27px;
+            font-weight: 500;
+            color: #727272;
+            text-align: center;
+        }
+        .redirect{
+            font-family: 'Manrope', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: #727272;
+            text-align: center;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}

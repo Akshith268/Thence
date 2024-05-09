@@ -1,0 +1,27 @@
+.firstsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh; /* Adjust the height as needed */
+}
+
+.success {
+    font-size: 30px;
+    font-family: 'Covered By Your Grace', sans-serif;
+    color: #2DA950;
+    text-align: center;
+    margin: 0; /* Reset margin */
+    font-weight: 500;
+}
+
+.para {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 530;
+    font-size: 50px;
+    line-height: 67.2px;
+    text-align: center; /* Center text horizontally */
+    width: 600px;
+    height: 134px;
+    margin: 0; /* Reset margin */
+}
